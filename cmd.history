@@ -1,0 +1,10 @@
+#!/usr/bin/sh
+# jiwei 2012.3.27
+
+dir=.
+fn=Abama.jpg
+
+make clean
+make
+
+./SkinSeg $dir/$fn

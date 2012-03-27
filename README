@@ -1,0 +1,12 @@
+Import the color space of rgb to other color spaces to better identify the humnan skin 
+
+including:
+        SkinFilter_LUV ( src, dst_luv);
+        SkinFilter_NEW ( src, dst_new);
+        SkinFilter_HSV ( src, dst_hsv);
+        SkinFilter_RGB ( src, dst_rgb);
+        SkinFilter_Cbcr( src, dst_CbCr);
+
+
+imput :  img 
+output: mask_img to identify the skin area and give the similarity value
